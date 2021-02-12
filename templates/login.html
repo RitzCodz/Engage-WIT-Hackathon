@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="static/css/main.css" >
+    <link rel="stylesheet" type="text/css" href="static/css/login.css" >
+    <link rel="stylesheet" type="text/css" href="static/css/footer2.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,
+    400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,
+    700,700i,900,900i&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./js/app.js"></script>
+    <meta charset="UTF-8">
+    <title>Women's Health</title>
+</head>
+
+<body>
+    <div class="nav">
+        <div class=nav-left>
+            <a href=index>
+                <img class="logo-img" src="img/logo.png" alt="Women's Health" width="170" height="80" align=center>        
+            </a>  
+            <nav class="topnav">
+                <a href="index">Home</a>
+                <a href="myBody">myBody</a>
+                <a href="myMind">myMind</a>
+                <a href="myLife">myLife</a>
+            </nav>
+        </div>
+        
+        <div class="nav-right">
+            <div class="subscribe">
+                <button class="subscribebtn">Subscribe</button>
+                <div class="subscribe-content">
+                    <input type="text" name="email" />
+                    <input id="submit" type="submit" name="subscribe" value="subscribe">
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">My Profile</button>
+                <div class="dropdown-content">
+                    <a href="login">Log in</a>
+                    <a href="signup">SignUp</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav-media">
+        <div class="menu-icon">
+            <div class="hamburger"><span></span></div>
+            <p class="menu">Menu</p>
+        </div>
+        <div class="nav-right">
+            <div class="subscribe">
+                <button class="subscribebtn">Subscribe</button>
+                <div class="subscribe-content">
+                    <input type="text" name="email" />
+                    <input id="submit" type="submit" name="subscribe" value="subscribe">
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">My Profile</button>
+                <div class="dropdown-content">
+                    <a href="login">Log in</a>
+                    <a href="signup">SignUp</a>
+                </div>
+            </div>
+        </div>
+        <nav class="nav2">
+            <a class="cross">✕</a>
+            <a href="index">Home</a>
+            <a href="myBody">myBody</a>
+            <a href="myMind">myMind</a>
+            <a href="myLife">myLife</a>
+        </nav>
+    </div>  
+
+    <div class="loginBox">
+        <h1>Please login</h1>
+        <br>
+        <form action="" method="post">
+          <input type="text" placeholder="Username" name="username" value="{{request.form.username }}">
+          <input type="password" placeholder="Password" name="password" value="{{request.form.password }}">
+          <input class="btn btn-default" type="submit" value="Login">
+        </form>  
+    </div>
+</body>
+<!-- //footer// -->
+
+<footer class="footer footer-color">
+    <div class="bottom-nav">
+        <a href="#">About us</a>
+        <a href="#"> Services</a>
+        <a href="#">Contact Us</a>
+        <a href="#"> Career</a>
+    </div>
+        <div class="socialIcons">
+        <a href="" class="fa fa-facebook"></a>
+        <a href="" class="fa fa-twitter"></a>
+        <a href="" class="fa fa-instagram"></a>
+    </div>
+</footer>
+
+
+
+</html>
+
+

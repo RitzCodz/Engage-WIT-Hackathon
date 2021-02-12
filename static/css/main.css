@@ -1,0 +1,342 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 800px;
+}
+
+/* ----------- main sections:  ------------ */
+.nav, .nav-desktop {   /*top navigation container */
+    position: static;
+    margin: 0px;
+    width: 100%;
+    height: 95px;
+    display: none;
+}
+
+.media {  /*video container*/
+    position: static;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 350px;
+}
+
+.content-wrapper {  /*rest of the main content*/
+    position: static;
+    margin-top: 20px;
+    padding: 0;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+}
+
+#footer {  /* footer of the page */
+    display: block;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+    color: #fff;
+  }
+
+/* -------------------------------- */
+
+.topnav {
+    font-family: 'Montserrat';
+    background-color: white;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+.topnav a {
+    float: left;
+    color: #180268;
+    text-align: center;
+    margin-top: 53px;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    font-stretch: condensed;
+    padding-bottom: 10px;
+}
+
+.topnav a:hover {
+    background-color: white;
+    color: rgb(128, 128, 128);
+    border-bottom: 2px solid rgb(96, 176, 230);
+  }
+
+.topnav a.active {
+    background-color: white;
+    color: rgb(91, 14, 136);
+    border-bottom: 2px solid rgb(96, 176, 230);
+  }
+
+.logo-img {
+    width: 60;
+    height: 60;
+    float: left;
+    position: relative;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px; 
+}
+
+.nav-left{
+    display: none;
+}
+
+.nav-right {
+    display: block;
+}
+
+
+.subscribe{
+    float: right;
+    position: relative;
+    margin-top: 32px;
+    margin-right: 70px;
+    padding: 6px;
+}
+
+.subscribe a:active:before{
+    opacity: 0.9;
+    transform: translateY(3px);
+}
+
+.subscribebtn {
+    background-color: #180268;
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 17px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    font-stretch: condensed;
+    width:120px;
+    padding-top:5px;
+    outline: none;  
+    padding-bottom:5px;
+    border-radius:20px;
+    border: #180268 2px solid
+}
+
+.subscribebtn:hover {
+    background-color: rgb(128, 128, 128);
+    border: rgb(128, 128, 128) 2px solid
+}
+
+.subscribebtn:active {
+    background-color: rgb(156, 156, 156);
+    border: rgb(156, 156, 156) 2px solid
+}
+
+.subscribe-content {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 5%;
+    background-color:white;
+    padding: 12px 16px;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.subscribe-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.subscribe:hover .subscribe-content {
+    display: block;
+    opacity: 1;
+}
+
+
+.dropdown {
+    float: right;
+    position: relative;
+    padding: 6px;
+    margin-top: 32px;
+    margin-right: 20px;
+    background: white;
+    font-family: 'Montserrat';
+    font-size: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn {
+    background-color: white;
+    border: none;
+    font-family: 'Montserrat';
+    color: #180268;
+    font-size: 17px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-stretch: condensed;
+    width:120px;
+    outline: none;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius:20px;
+    border: #180268 2px solid
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: rgb(224, 227, 230);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropbtn:hover {
+    color: rgb(128, 128, 128);
+    border: rgb(128, 128, 128) 2px solid}
+
+.dropdown:hover .dropbtn {background-color: white;}
+
+.dropbtn:active {
+    background-color: rgb(167, 167, 167);
+    color: rgb(167, 167, 167);
+    border: rgb(167, 167, 167) 2px solid;
+}
+
+/* ------------------ */
+
+.nav-media {
+    position: static;
+    margin: 0px;
+    width: 100%;
+    height: 95px;
+}
+
+.nav2 {
+    position: fixed;
+    transition: 0.5s all ease;
+    width: 200px;
+    height: 250px;
+    left: -300px;
+    top: 96px;
+    background-color: white;
+    box-shadow: 1px 0px 2px grey;
+    font-family: 'Montserrat';
+    color: rgb(91, 14, 136);;
+    font-size: 17px;
+    font-weight: 500;
+    z-index: 3000;
+}
+
+.nav2.active {
+    left: 0;
+    background-color: white;
+    
+}
+
+.nav2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.nav2 a:hover {
+    background-color: rgb(224, 227, 230)
+}
+
+.menu-icon {
+    float: left;
+    width: 30px;
+    height: 60px;
+    margin: 20px;
+}
+
+.hamburger {
+    width: 30px;
+    height: 15px;
+	position: relative;
+	float: left;
+    margin-bottom: 7px;
+    margin-top: 28px;
+}
+
+.hamburger:before, .hamburger:after {
+	content: "";
+	display: block;
+    width: 30px;
+	height: 2px;
+	background: black;
+	position: absolute;}
+
+.hamburger:before {
+    top: 0;
+}
+
+.hamburger:after {
+    bottom: 0;
+}
+
+.hamburger span {
+    width: 30px;
+    height: 2px;
+    display: block;
+    background: black;
+    position: absolute;
+    top: 6.3px;
+}
+
+.menu {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+}
+
+a.cross {
+    text-align: right;
+    font-size: 1.5rem;
+}
+
+a.cross:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+
+@media only screen and (min-width: 1150px) {
+    .nav, .nav-left, .nav-desktop {
+        display: block;
+    }
+
+    .nav-media {
+        display: none;
+    }
+} 
+
+@media only screen and (max-width: 500px) {
+    .subscribe {
+        display: none;
+    }
+}

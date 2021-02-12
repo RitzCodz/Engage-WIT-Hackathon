@@ -1,0 +1,62 @@
+.media-play{
+    position: absolute;
+    text-align: center;
+    transition: transform .3s ease-in-out;
+    width: 100%;
+    height: 50%;
+    vertical-align: baseline;
+    overflow: hidden;
+    display: block;
+}
+
+.picture-in-view {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+h1 {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 800;
+    color: rgb(64, 64, 64);
+}
+
+.mainContainer {
+    display: solid;
+    padding: 0;
+    margin: 0;
+}
+
+.tag {
+    float: left;
+    margin: 0 5px 10px 0;
+    width: 10px;
+    cursor: pointer;
+}
+
+.question {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+    cursor: pointer;
+}
+
+.answer-hidden, .answer-shown {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 15px;
+}
+
+.answer-hidden {
+    display: none;
+}
+
+.answer-shown {
+    display: block;
+}

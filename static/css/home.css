@@ -1,0 +1,46 @@
+/* // home,Prava// */
+
+.homeContainer {
+    position: relative;
+    width: 1200px;
+    max-width: 100%;
+    clear:both;
+    height: auto;
+    margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .homeContainer {
+        padding-bottom: 300px;
+        /* margin:auto; */
+    }
+}
+
+.text-cont {
+    width: 500px;
+    max-width: 100%;
+    margin-top: 25px;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    color: rgb(91, 14, 136);
+    text-align: center;
+    display: block;
+    float: right;
+}
+
+@media only screen and (max-width: 768px) {
+    .text-cont {
+        max-width: 80%;
+        text-align: center;
+        font-size: 10px;
+        display: block;
+         margin-top: 200px;
+        font-size: 10px;
+        font-family: 'Montserrat';
+        color: rgb(91, 14, 136);
+        text-align: center;
+    }
+}

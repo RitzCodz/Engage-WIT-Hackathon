@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="static/css/main.css" >
+    <link rel="stylesheet" type="text/css" href="static/css/signup.css" >
+    <link rel="stylesheet" type="text/css" href="static/css/footer2.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,
+    400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,
+    700,700i,900,900i&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,600' rel='stylesheet' type='text/css'>
+    <script src="./js/signup.js"></script>
+    <script src="./js/app.js"></script>
+    <meta charset="UTF-8">
+    <title>Women's Health</title>
+</head>
+
+<body>
+    <div class="nav">
+        <div class=nav-left>
+            <a href=index>
+                <img class="logo-img" src="img/logo.png" alt="Women's Health" width="170" height="80" align=center>        
+            </a>  
+            <nav class="topnav">
+                <a href="index">Home</a>
+                <a href="myBody">myBody</a>
+                <a href="myMind">myMind</a>
+                <a href="myLife">myLife</a>
+            </nav>
+        </div>
+        
+        <div class="nav-right">
+            <div class="subscribe">
+                <button class="subscribebtn">Subscribe</button>
+                <div class="subscribe-content">
+                    <input type="text" name="email" />
+                    <input id="submit" type="submit" name="subscribe" value="subscribe">
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">My Profile</button>
+                <div class="dropdown-content">
+                    <a href="login">Log in</a>
+                    <a href="signup">SignUp</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav-media">
+        <div class="menu-icon">
+            <div class="hamburger"><span></span></div>
+            <p class="menu">Menu</p>
+        </div>
+        <div class="nav-right">
+            <div class="subscribe">
+                <button class="subscribebtn">Subscribe</button>
+                <div class="subscribe-content">
+                    <input type="text" name="email" />
+                    <input id="submit" type="submit" name="subscribe" value="subscribe">
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">My Profile</button>
+                <div class="dropdown-content">
+                    <a href="login">Log in</a>
+                    <a href="signup">SignUp</a>
+                </div>
+            </div>
+        </div>
+        <nav class="nav2">
+            <a class="cross">✕</a>
+            <a href="index">Home</a>
+            <a href="myBody">myBody</a>
+            <a href="myMind">myMind</a>
+            <a href="myLife">myLife</a>
+        </nav>
+    </div>  
+    <!---------------------------------------------------->
+    <div class="signupForm">
+        <h1 class="formTitle">QUICK SECURE SIGN UP</h1>
+    </div>
+
+    <p class="instructions1">All fields are required</p>
+
+
+    <div class="input-container">
+        <div class="left-container"><p class="description">Title</p></div>
+        <div>
+            <p id="titleError" class="nonerror">Please choose: Mr, Mrs, Ms, Miss, Doctor or Other</p>
+            <input id="title" type="title" name="title" class="details" placeholder="Title" />
+        </div>
+    </div>
+    <br>
+
+    <div class="input-container">
+        <div class="left-container"><p class="description">First Name</p></div>
+        <div>
+            <p id="firstNameError" class="nonerror">Required field</p>
+            <input id="firstName" type="firstName" name="firstName" class="details" placeholder="First Name"/>
+        </div>        
+    </div>
+    <br>  
+
+    <div class="input-container">
+        <div class="left-container"><p class="description">Last Name</p></div>
+        <div>
+            <p id="lastNameError" class="nonerror">Required field</p>
+            <input id="lastName" type="lastName" name="lastName" class="details" placeholder="Last Name"/>
+        </div>
+    </div>  
+    <br>       
+
+    <div class="input-container">
+        <div class="left-container"><p class="description">Email</p></div>
+        <div>
+            <p id="emailError" class="nonerror">Please enter a valid email address.</p>
+            <input id="email" type="email" name="email" class="details" placeholder="Email"/>
+        </div>
+    </div>  
+    <br>  
+
+    <div class="input-container">
+        <div class="left-container"><p class="description">Password</p></div>
+        <div>
+            <p id="passwordError" class="nonerror">Must be 6-12 characters and include capital letters and numbers</p>
+            <input id="password" type="password" name="password1" class="details" placeholder="Password"/>
+        </div>
+    </div>
+    <br>
+
+    <div class="input-container">
+        <div class="left-container"><p class="description">Retype Password</p></div>
+        <div>
+            <p id="retypePasswordError" class="nonerror">Passwords do not match</p>
+            <input id="retypePassword" type="password" name="password2" class="details" placeholder="Retype password"/>
+        </div>
+
+    </div>     
+    
+    <div class="wrapper"> 
+        <button id="signupButton" class="button">SignUp</button>
+    </div>
+
+    <footer class="footer footer-color">
+        <div class="bottom-nav">
+            <a href="#">About us</a>
+            <a href="#"> Services</a>
+            <a href="#">Contact Us</a>
+            <a href="#"> Career</a>
+        </div>
+            <div class="socialIcons">
+            <a href="" class="fa fa-facebook"></a>
+            <a href="" class="fa fa-twitter"></a>
+            <a href="" class="fa fa-instagram"></a>
+       </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>
