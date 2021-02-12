@@ -3,16 +3,16 @@
 
 <head>
     <link rel="icon" href="static/img/favicon.png" />
-    <link rel="stylesheet" type="text/css" href="static/css/main.css" >
-    <link rel="stylesheet" type="text/css" href="static/css/login.css" >
+    <link rel="stylesheet" type="text/css" href="static/css/main.css">
     <link rel="stylesheet" type="text/css" href="static/css/footer2.css">
+    <link rel="stylesheet" type="text/css" href="static/css/home.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,
     400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,
     700,700i,900,900i&display=swap" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,600' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="./js/app.js"></script>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>myHealth</title>
 </head>
 
@@ -23,7 +23,7 @@
                 <img class="logo-img" src="static/img/logo.png" alt="myHealth" width="170" height="80" align=center>        
             </a>  
             <nav class="topnav">
-                <a href="index">Home</a>
+                <a class="active" href="index">Home</a>
                 <a href="myBody">myBody</a>
                 <a href="myMind">myMind</a>
                 <a href="myLife">myLife</a>
@@ -41,9 +41,9 @@
             <div class="dropdown">
                 <button class="dropbtn">My Profile</button>
                 <div class="dropdown-content">
-                    <a href="logout">Log Out</a>
+                    <a href="login">Log in</a>
+                    <a href="signup">SignUp</a>
                 </div>
-                
             </div>
         </div>
     </div>
@@ -64,7 +64,8 @@
             <div class="dropdown">
                 <button class="dropbtn">My Profile</button>
                 <div class="dropdown-content">
-                    <a href="logout">Log Out</a>
+                    <a href="login">Log in</a>
+                    <a href="signup">SignUp</a>
                 </div>
             </div>
         </div>
@@ -75,36 +76,51 @@
             <a href="myMind">myMind</a>
             <a href="myLife">myLife</a>
         </nav>
-    </div>  
+    </div> 
+    <!-- <div class="content-wrapper">
 
-    <div class="loginBox">
-        <h1>Please login</h1>
-        <br>
-        <form action="" method="post">
-          <input type="text" placeholder="Username" name="username" value="{{request.form.username }}">
-          <input type="password" placeholder="Password" name="password" value="{{request.form.password }}">
-          <input class="btn btn-default" type="submit" value="Login">
-        </form>  
-    </div>
-</body>
-<!-- //footer// -->
+    </div> -->
 
-<footer class="footer footer-color">
-    <div class="bottom-nav">
-        <a href="#">About us</a>
-        <a href="#"> Services</a>
-        <a href="#">Contact Us</a>
-        <a href="#"> Career</a>
+    <!-- /home-contain/prava/ -->
+    <div class="homeContainer">
+        <img src="static/img/home.jpg" alt="Womens Health" style="width:100%;">
+        <div class="text-cont">
+            <div class="textHome">
+                <p>Here at "myHealth" we produce informative and educational features to support your health
+                    journey and in doing so, embrace conversation within our communities.</p>
+                <p><strong>I need help with </strong></p>
+                <figure>
+                    <a href="myBody" target="blank"><img src="static/img/myBodyIcon.svg" width="60px"></a>
+                    <figcaption><strong>myBody</strong></figcaption>
+                </figure>
+                <figure>
+                    <a href="myMind" target="blank"><img src="static/img/myMindIcon.svg" width="60px"></a>
+                    <figcaption><strong>myMind</strong></figcaption>
+                </figure>
+
+
+            </div>
+        </div>
     </div>
-        <div class="socialIcons">
-        <a href="" class="fa fa-facebook"></a>
-        <a href="" class="fa fa-twitter"></a>
-        <a href="" class="fa fa-instagram"></a>
-    </div>
-</footer>
+
+   </body> 
+
+    <!-- // Footer/Prava// -->
+
+    <footer class="footer">
+        <div class="bottom-nav">
+            <a href="#">About us</a>
+            <a href="#"> Services</a>
+            <a href="#">Contact Us</a>
+            <a href="#"> Career</a>
+        </div>
+            <div class="socialIcons">
+            <a href="" class="fa fa-facebook"></a>
+            <a href="" class="fa fa-twitter"></a>
+            <a href="" class="fa fa-instagram"></a>
+        </div>
+    </footer>
 
 
 
 </html>
-
-
