@@ -8,26 +8,26 @@ We believe that a sound mind resides in a sound body. And in the hustle - bustle
 Not anymore! myHealth is here !!!
 
 Physical Health (myBody):
-      BMI Calculator
-      Water Intake
-      Track Your Cycle
-      Sleep Tracker
-      Exercise Tracker
+     * BMI Calculator
+     * Water Intake
+     * Track Your Cycle
+     * Sleep Tracker
+     * Exercise Tracker
   
 Mental Health (myMind):
-      Talk your Issues to an Expert
-      Feeling Down? Listen to our daily music mix.
-      You Can Do It - Your Daily Dose of Motivation
-      Mind Matters Forum
+     * Talk your Issues to an Expert
+     * Feeling Down? Listen to our daily music mix.
+     * You Can Do It - Your Daily Dose of Motivation
+     * Mind Matters Forum
  
 Quality of Life (myLife):
-  Latest dose of health news, tips and tricks to navigate work and home
-    Fitness through Different Stages of a Woman's Life
-    Vitamin and Minerals: Are you having the required quantiities?
-    Work-Life Balance
-    Latest Gadgets to the Household Rescue!
-    Listen to weekly curated podcasts!
-    Fashion and Beauty Updates
+    * Latest dose of health news, tips and tricks to navigate work and home
+    * Fitness through Different Stages of a Woman's Life
+    * Vitamin and Minerals: Are you having the required quantiities?
+    * Work-Life Balance
+    * Latest Gadgets to the Household Rescue!
+    * Listen to weekly curated podcasts!
+    * Fashion and Beauty Updates
 
 ## Deployment
 myhealth-is-wealth.herokuapp.com/
