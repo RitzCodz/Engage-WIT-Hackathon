@@ -29,6 +29,8 @@ Quality of Life (myLife):
 * Listen to weekly curated podcasts!
 * Fashion and Beauty Updates
 
+(Note: Individual Features are to be developed)
+
 ## Deployment
 myhealth-is-wealth.herokuapp.com/
 Username: ritu
